@@ -24,6 +24,7 @@ def lambda_handler(event, context):
                 },
             ],
         )
+        
 
         if len(response[u'FlowLogs']) != 0:
             print('VPC Flow Logs are ENABLED')
